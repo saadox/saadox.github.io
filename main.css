@@ -1,0 +1,114 @@
+
+
+#container
+{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 10px;
+    overflow: visible;
+
+}
+
+#container p
+{
+    color: chartreuse;
+    margin-top: 190px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    border-radius: 20px;
+
+}
+
+#left{
+    float: left;
+    margin-left: 10px;
+    z-index: 15;
+    position: relative;
+
+}
+#right{
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    z-index: 15;
+
+}
+
+#img1
+{
+    background-color: transparent;
+    width: 600px;
+    height: 400px;
+    display: block;
+    background-image: url("imgs/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    z-index: 5;
+    position: absolute;
+
+}
+#img2
+{
+    position: absolute;
+    background-color: transparent;
+    height: 400px;
+    width: 600px;
+    display: block;
+    background-image: url("imgs/2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    z-index: 4;
+}
+
+#img3
+{
+    position: absolute;
+    background-color: transparent;
+    height: 400px;
+    width: 600px;
+    display: block;
+    background-image: url("imgs/3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+#img4
+{
+    position: absolute;
+    background-color: transparent;
+    height: 400px;
+    width: 600px;
+    display: block;
+    background-image: url("imgs/4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+#img5
+{
+    position: absolute;
+    background-color: transparent;
+    height: 400px;
+    width: 600px;
+    display: block;
+    background-image: url("imgs/5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    z-index: 1;
+}
